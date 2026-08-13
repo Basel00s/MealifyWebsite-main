@@ -4,6 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mealify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/mode.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <link rel="stylesheet" href="./css/all.min.css" />
     <link
@@ -11,26 +27,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet"
-  />
-
-  <link rel="stylesheet" href="./css/media.css" />
-  <link rel="stylesheet" href="./css/mode.css" />
-  <link rel="stylesheet" href="./css/style.css" />
 
   <body>
     <!--hero start-->
-    <div class="hero">
+    <div class="hero pd-section">
       <div class="container">
         <div class="herocontent">
           <div class="lefthero pd-section">
@@ -40,10 +40,12 @@
               eveniet. Eum quas beatae cumque eum quaerat.
             </p>
             <div class="buttomshero">
-              <a class="buttom table" href="">Book a Table</a>
-              <div class="icon">
-                <i class="fa-solid fa-play hh"></i>
-                <a class="buttom ff" href="">Watch a Video</a>
+              <a class="buttom first-btn" href="">Book a Table</a>
+              <div class="secondbt">
+                <div class="icon">
+                  <i class="fa-solid fa-play second-btm-icon"></i>
+                </div>
+                <a class="buttom second-buttom" href="">Watch a Video</a>
               </div>
             </div>
           </div>
@@ -79,7 +81,7 @@
     </div>
     <!--navbar end-->
     <!--chefs start-->
-    <div class="chefs">
+    <div class="chefs pd-section">
       <div class="container">
         <div class="chefscontent">
           <div class="chefstext">
@@ -88,7 +90,16 @@
           </div>
           <div class="chefscards">
             <div class="chefcard">
-              <img src="./images/chefs-1.jpg" alt="" />
+              <div class="social">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+              <div class="imgcards">
+                <img src="./images/chefs-1.jpg" alt="" />
+                <img class="bg-img" src="./images/team-shape.svg" alt="" />
+              </div>
               <h3>Walter White</h3>
               <span>Master Chef</span>
               <p>
@@ -98,7 +109,16 @@
               </p>
             </div>
             <div class="chefcard">
-              <img src="./images/chefs-2.jpg" alt="" />
+              <div class="social">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+              <div class="imgcards">
+                <img src="./images/chefs-2.jpg" alt="" />
+                <img class="bg-img" src="./images/team-shape.svg" alt="" />
+              </div>
               <h3>Sarah Jhonson</h3>
               <span>Patissier</span>
               <p>
@@ -108,7 +128,16 @@
               </p>
             </div>
             <div class="chefcard">
-              <img src="./images/chefs-3.jpg" alt="" />
+              <div class="social">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+              <div class="imgcards">
+                <img src="./images/chefs-3.jpg" alt="" />
+                <img class="bg-img" src="./images/team-shape.svg" alt="" />
+              </div>
               <h3>William Anderson</h3>
               <span>Cook</span>
               <p>
@@ -122,7 +151,18 @@
       </div>
     </div>
     <!--chefs end-->
-    <!--GALLERY start-->
-    <!--GALLERY end-->
+    <!--contact us start-->
+    <div class="contact pd-section">
+      <div class="container">
+        <div class="contactcontent">
+          <div class="contacttext">
+            <h2>CONTACT</h2>
+            <p>Need Help ?<span> Contact Us</span></p>
+          </div>
+          <img src="./images/screenshot_20260812_114949.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--contact us end -->
   </body>
 </html>
